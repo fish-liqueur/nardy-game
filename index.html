@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./style/style.scss" />
+</head>
+<body>
+    <template id="modal">
+        <div class="modal">
+            <div class="modal__body">
+                <div class="modal__content">
+                    
+                </div>
+            </div>
+            <div class="modal__overflow"></div>
+        </div> 
+    </template>
+    <div class="playing-field">
+        <canvas id="game" width="1000" height="600"></canvas>
+        <button id="start-new-game-btn" class="hide">Start over</button>
+    </div>
+    <script src="./dist/index.js" type="module"></script>
+</body>
+</html>
